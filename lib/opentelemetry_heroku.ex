@@ -1,4 +1,19 @@
 defmodule OpentelemetryHeroku do
+  @moduledoc """
+  Implements an `OpenTelemetry` resource detector for Heroku.
+
+  Exposes Heroku environment variables as an `OpenTelemetry` resource, using the
+  semantic conventions defined in the `OpenTelemetry`
+  [spec](https://opentelemetry.io/docs/specs/otel/resource/semantic_conventions/cloud_provider/heroku/).
+
+  ## Usage:
+
+  Add this module to the config:
+
+  ```elixir
+  config :opentelemetry, resource_detectors: [OpentelemetryHeroku]
+  ```
+  """
   require OpenTelemetry.SemanticConventions.Resource
   alias OpenTelemetry.SemanticConventions.Resource
 
