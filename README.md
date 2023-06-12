@@ -6,18 +6,37 @@ semantic conventions defined in the `OpenTelemetry`
 
 ## Installation
 
+### Elixir
+
 ```elixir
 def deps do
   [
-    {:opentelemetry_heroku, "~> 0.1.0"}
+    {:opentelemetry_heroku, "~> 0.2"}
   ]
 end
+```
+
+### Erlang
+
+```erlang
+{deps, [
+  {opentelemetry_heroku, "~> 0.2"}
+]}.
 ```
 
 ## Usage
 
 Include the module as one of the `resource_detectors` in the `OpenTelemetry` config:
 
+### Elixir
+
 ```elixir
-config :opentelemetry, resource_detectors: [OpentelemetryHeroku]
+config :opentelemetry, resource_detectors: [:opentelemetry_heroku]
+```
+
+### Erlang
+
+```erlang
+%% config/sys.config.src
+{resource_detectors, [opentelemetry_heroku]}
 ```
