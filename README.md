@@ -1,7 +1,7 @@
 # OpentelemetryHeroku
 
-Exposes Heroku environment variables as an `OpenTelemetry` resource, using the
-semantic conventions defined in the `OpenTelemetry`
+Exposes Heroku environment variables as an `opentelemetry` resource, using the
+semantic conventions defined in the `opentelemetry`
 [spec](https://opentelemetry.io/docs/specs/otel/resource/semantic_conventions/cloud_provider/heroku/).
 
 ## Installation
@@ -26,7 +26,7 @@ end
 
 ## Usage
 
-Include the module as one of the `resource_detectors` in the `OpenTelemetry` config:
+Include the module as one of the `resource_detectors` in the `opentelemetry` config:
 
 ### Elixir
 
