@@ -1,4 +1,4 @@
-# OpentelemetryHeroku
+# opentelemetry_heroku
 
 Exposes Heroku environment variables as an `opentelemetry` resource, using the
 semantic conventions defined in the `opentelemetry`
