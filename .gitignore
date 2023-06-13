@@ -27,3 +27,6 @@ opentelemetry_heroku-*.tar
 
 # Elixir Language Server
 /.elixir_ls/
+
+# Rebar3 crashdumps
+*.crashdump
