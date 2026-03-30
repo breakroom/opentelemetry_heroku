@@ -1,16 +1,16 @@
 {"1.2.0",
-[{<<"opentelemetry">>,{pkg,<<"opentelemetry">>,<<"1.3.0">>},0},
- {<<"opentelemetry_api">>,{pkg,<<"opentelemetry_api">>,<<"1.2.1">>},0},
+[{<<"opentelemetry">>,{pkg,<<"opentelemetry">>,<<"1.7.0">>},0},
+ {<<"opentelemetry_api">>,{pkg,<<"opentelemetry_api">>,<<"1.5.0">>},0},
  {<<"opentelemetry_semantic_conventions">>,
-  {pkg,<<"opentelemetry_semantic_conventions">>,<<"0.2.0">>},
-  1}]}.
+  {pkg,<<"opentelemetry_semantic_conventions">>,<<"1.27.0">>},
+  0}]}.
 [
 {pkg_hash,[
- {<<"opentelemetry">>, <<"988AC3C26ACAC9720A1D4FB8D9DC52E95B45ECFEC2D5B5583276A09E8936BC5E">>},
- {<<"opentelemetry_api">>, <<"7B69ED4F40025C005DE0B74FCE8C0549625D59CB4DF12D15C32FE6DC5076FF42">>},
- {<<"opentelemetry_semantic_conventions">>, <<"B67FE459C2938FCAB341CB0951C44860C62347C005ACE1B50F8402576F241435">>}]},
+ {<<"opentelemetry">>, <<"20D0F12D3D1C398D3670FD44FD1A7C495DD748AB3E5B692A7906662E2FB1A38A">>},
+ {<<"opentelemetry_api">>, <<"1A676F3E3340CAB81C763E939A42E11A70C22863F645AA06AAFEFC689B5550CF">>},
+ {<<"opentelemetry_semantic_conventions">>, <<"ACD0194A94A1E57D63DA982EE9F4A9F88834AE0B31B0BD850815FE9BE4BBB45F">>}]},
 {pkg_hash_ext,[
- {<<"opentelemetry">>, <<"8E09EDC26AAD11161509D7ECAD854A3285D88580F93B63B0B1CF0BAC332BFCC0">>},
- {<<"opentelemetry_api">>, <<"6D7A27B7CAD2AD69A09CABF6670514CAFCEC717C8441BEB5C96322BAC3D05350">>},
- {<<"opentelemetry_semantic_conventions">>, <<"D61FA1F5639EE8668D74B527E6806E0503EFC55A42DB7B5F39939D84C07D6895">>}]}
+ {<<"opentelemetry">>, <<"A9173B058C4549BF824CBC2F1D2FA2ADC5CDEDC22AA3F0F826951187BBD53131">>},
+ {<<"opentelemetry_api">>, <<"F53EC8A1337AE4A487D43AC89DA4BD3A3C99DDF576655D071DEED8B56A2D5DDA">>},
+ {<<"opentelemetry_semantic_conventions">>, <<"9681CCAA24FD3D810B4461581717661FD85FF7019B082C2DFF89C7D5B1FC2864">>}]}
 ].
